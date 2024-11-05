@@ -27,4 +27,3 @@ ignoreDifferences:
     kind: Secret
     jsonPointers:
       - /data
-      - /stringData
