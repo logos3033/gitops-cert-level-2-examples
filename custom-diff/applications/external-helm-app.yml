@@ -26,10 +26,10 @@ ignoreDifferences:
   - group: ''
     kind: Secret
     jsonPointers:
-      - /data
+      - /data/my-password
   - group: apps
     kind: Deployment
     name: guestbook
     namespace: default
     jsonPointers:
-      - /spec/replicas
+      - /metadata/annotations/creation
