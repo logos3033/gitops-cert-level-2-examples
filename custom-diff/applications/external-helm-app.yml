@@ -27,3 +27,9 @@ ignoreDifferences:
     kind: Secret
     jsonPointers:
       - /data
+  - group: apps
+    kind: Deployment
+    name: guestbook
+    namespace: default
+    jsonPointers:
+      - /spec/replicas
